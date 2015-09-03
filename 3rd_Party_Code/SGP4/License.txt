@@ -1,0 +1,290 @@
+In the e-mail exchange below, David Vallado confirmed that the code for his implementation of an SGP4 propagator is in the public domain.
+
+December 2014 David F. Crouse, Naval Research Laboratory, Washington D.C.
+
+
+
+
+Return-Path: <dvallado@agi.com>
+Received: from mail5.nrl.navy.mil (smail5.nrl.navy.mil [132.250.4.114])
+	by radar.nrl.navy.mil (8.13.8/8.13.8) with ESMTP id sBBGaPur025125
+	for <crouse@radar.nrl.navy.mil>; Thu, 11 Dec 2014 11:36:25 -0500
+Received: from na01-by2-obe.outbound.protection.outlook.com (mail-by2on0131.outbound.protection.outlook.com [207.46.100.131])
+	by mail5.nrl.navy.mil (8.14.8/8.14.8) with ESMTP id sBBGaJCi002417
+	for <david.crouse@nrl.navy.mil>; Thu, 11 Dec 2014 11:36:19 -0500
+Received: from BN3PR0701MB1220.namprd07.prod.outlook.com (25.160.115.139) by
+ BN3PR0701MB1217.namprd07.prod.outlook.com (25.160.115.11) with Microsoft SMTP
+ Server (TLS) id 15.1.36.22; Thu, 11 Dec 2014 16:35:55 +0000
+Received: from BN3PR0701MB1220.namprd07.prod.outlook.com ([25.160.115.139]) by
+ BN3PR0701MB1220.namprd07.prod.outlook.com ([25.160.115.139]) with mapi id
+ 15.01.0031.000; Thu, 11 Dec 2014 16:35:55 +0000
+From: "Vallado, David" <dvallado@agi.com>
+To: "David F. Crouse" <david.crouse@nrl.navy.mil>
+Subject: RE: Some Questions
+Thread-Topic: Some Questions
+Thread-Index: AQHQFV9/kDvBgfKU0ECy6iYVsVmUFJyKlbWg
+Date: Thu, 11 Dec 2014 16:35:54 +0000
+Message-ID: <BN3PR0701MB1220FA70997178BB9A7F936EC3630@BN3PR0701MB1220.namprd07.prod.outlook.com>
+References: <673AA583-4A8F-4569-B139-A4C41006E679@nrl.navy.mil>
+In-Reply-To: <673AA583-4A8F-4569-B139-A4C41006E679@nrl.navy.mil>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [65.89.177.254]
+x-microsoft-antispam: BCL:0;PCL:0;RULEID:;SRVR:BN3PR0701MB1217;
+x-exchange-antispam-report-test: UriScan:;
+x-exchange-antispam-report-cfa-test: BCL:0;PCL:0;RULEID:;SRVR:BN3PR0701MB1217;
+x-forefront-prvs: 0422860ED4
+x-forefront-antispam-report: SFV:NSPM;SFS:(10019020)(252514010)(189002)(41584004)(199003)(377454003)(66066001)(221733001)(40100003)(76176999)(77156002)(62966003)(450100001)(99286002)(97736003)(46102003)(86362001)(92566001)(76576001)(4396001)(31966008)(54206007)(101416001)(21056001)(54356999)(19625215002)(50986999)(54606007)(120916001)(33656002)(122556002)(99396003)(19300405004)(74316001)(19609705001)(64706001)(87936001)(20776003)(2656002)(19580395003)(19580405001)(19617315012)(107886001)(106356001)(68736005)(15975445007)(102836002)(107046002)(16236675004)(105586002)(106116001)(110136001);DIR:OUT;SFP:1102;SCL:1;SRVR:BN3PR0701MB1217;H:BN3PR0701MB1220.namprd07.prod.outlook.com;FPR:;SPF:None;MLV:sfv;PTR:InfoNoRecords;MX:1;A:1;LANG:en;
+Content-Type: multipart/alternative;
+	boundary="_000_BN3PR0701MB1220FA70997178BB9A7F936EC3630BN3PR0701MB1220_"
+MIME-Version: 1.0
+X-OriginatorOrg: agi.com
+X-MS-Exchange-CrossTenant-originalarrivaltime: 11 Dec 2014 16:35:54.8584
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 8b5e95e7-474d-4fb4-b270-7cea810b73bb
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN3PR0701MB1217
+X-Scanned-By: MIMEDefang 2.64 on 132.250.183.240
+X-Scanned-By: MIMEDefang 2.73
+X-Spam-Score: 0.001 () HTML_MESSAGE
+
+--_000_BN3PR0701MB1220FA70997178BB9A7F936EC3630BN3PR0701MB1220_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+David,
+    Yeah, it's been a bit of a mess. You would have thought that Space Comm=
+and would have published their code, but they have resisted all attempts to=
+ do so. That's why I collected all the information I could and simply publi=
+shed the 2006 paper complete with code, tests cases, etc. There is no licen=
+se - all open source. :) TS has all the code from that on his Celestrak web=
+site.
+
+dav
+David A Vallado
+Senior Research Astrodynamicist, CSSI/AGI
+719-573-2600, 719-573-9079 FAX, 610-981-8614 direct
+Moving things through space and time since 1989. AGI proudly celebrates 25 =
+years<http://blogs.agi.com/agi/2014/01/17/weve-gone-silver-agi-celebrates-2=
+5-years/>!
+
+From: David F. Crouse [mailto:david.crouse@nrl.navy.mil]
+Sent: Thursday, December 11, 2014 9:28 AM
+To: Vallado, David
+Subject: Some Questions
+
+Hi Again,
+
+Regarding your SGP4 propagator code that is online at
+http://www.centerforspace.com/downloads/
+You did not include a license file with it. Is the C++ implementation publi=
+c domain?
+
+Also, since US Space Command publicly publishes these two line element sets=
+, why didn't they publish their own code to use them themselves? It seems t=
+hat they did not even publish the documentation for the format of the sets;=
+ that is in some reports available on Kelso's site that are not on DTIC as =
+far as I can see.
+
+David F. Crouse
+Surveillance Technology Branch
+Radar Division
+Naval Research Laboratory
+Phone: (202) 404-8106
+Fax: (202) 404-8687
+E-Mail: david.crouse@nrl.navy.mil<mailto:david.crouse@nrl.navy.mil>
+
+MAILING ADDRESS:
+Naval Research Laboratory
+Attn: Code 5344 (D. Crouse)
+4555 Overlook Avenue S.W.
+Washington, DC  20375
+
+
+
+--_000_BN3PR0701MB1220FA70997178BB9A7F936EC3630BN3PR0701MB1220_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"Microsoft Word 14 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Helvetica;
+	panose-1:0 11 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+span.apple-style-span
+	{mso-style-name:apple-style-span;}
+span.EmailStyle18
+	{mso-style-type:personal-reply;
+	font-family:"Calibri","sans-serif";
+	color:#1F497D;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"EN-US" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1F497D">David,<o:p></o:p></span><=
+/p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1F497D">&nbsp;&nbsp;&nbsp; Yeah, =
+it&#8217;s been a bit of a mess. You would have thought that Space Command =
+would have published their code, but they have resisted all attempts to do =
+so.
+ That&#8217;s why I collected all the information I could and simply publis=
+hed the 2006 paper complete with code, tests cases, etc. There is no licens=
+e - all open source.
+</span><span style=3D"font-size:11.0pt;font-family:Wingdings;color:#1F497D"=
+>J</span><span style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&q=
+uot;sans-serif&quot;;color:#1F497D"> TS has all the code from that on his C=
+elestrak website.
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1F497D"><o:p>&nbsp;</o:p></span><=
+/p>
+<div>
+<p class=3D"MsoNormal"><span lang=3D"EN" style=3D"font-size:10.0pt;color:bl=
+ue">dav</span><span style=3D"font-size:11.0pt;color:black"><o:p></o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span lang=3D"EN" style=3D"font-size:10.0pt;color:bl=
+ue">David A Vallado</span><span style=3D"font-size:11.0pt;color:black"><o:p=
+></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN" style=3D"font-size:7.5pt;color:blu=
+e">Senior Research Astrodynamicist, CSSI/AGI
+</span><span style=3D"font-size:11.0pt;color:black"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN" style=3D"font-size:7.5pt;color:blu=
+e">719-573-2600, 719-573-9079 FAX, 610-981-8614 direct</span><span style=3D=
+"font-size:11.0pt;color:black"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1F497D">Moving things through spa=
+ce and time since 1989. AGI proudly celebrates
+<a href=3D"http://blogs.agi.com/agi/2014/01/17/weve-gone-silver-agi-celebra=
+tes-25-years/">
+25 years</a>!</span><span style=3D"font-size:11.0pt;color:black"><o:p></o:p=
+></span></p>
+</div>
+<p class=3D"MsoNormal"><span style=3D"font-size:11.0pt;font-family:&quot;Ca=
+libri&quot;,&quot;sans-serif&quot;;color:#1F497D"><o:p>&nbsp;</o:p></span><=
+/p>
+<div>
+<div style=3D"border:none;border-top:solid #B5C4DF 1.0pt;padding:3.0pt 0in =
+0in 0in">
+<p class=3D"MsoNormal"><b><span style=3D"font-size:10.0pt;font-family:&quot=
+;Tahoma&quot;,&quot;sans-serif&quot;">From:</span></b><span style=3D"font-s=
+ize:10.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;"> David F.=
+ Crouse [mailto:david.crouse@nrl.navy.mil]
+<br>
+<b>Sent:</b> Thursday, December 11, 2014 9:28 AM<br>
+<b>To:</b> Vallado, David<br>
+<b>Subject:</b> Some Questions<o:p></o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<p class=3D"MsoNormal">Hi Again,<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+<p class=3D"MsoNormal">Regarding your SGP4 propagator code that is online a=
+t<o:p></o:p></p>
+<div>
+<p class=3D"MsoNormal"><a href=3D"http://www.centerforspace.com/downloads/"=
+>http://www.centerforspace.com/downloads/</a><o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">You did not include a license file with it. Is the C=
+&#43;&#43; implementation public domain?<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal">Also, since US Space Command publicly publishes thes=
+e two line element sets, why didn't they publish their own code to use them=
+ themselves? It seems that they did not even publish the documentation for =
+the format of the sets; that is in
+ some reports available on Kelso's site that are not on DTIC as far as I ca=
+n see.<o:p></o:p></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+<div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Helvetica&quot;,&qu=
+ot;sans-serif&quot;;color:black">David F. Crouse<br>
+Surveillance Technology Branch<br>
+Radar Division<br>
+Naval Research Laboratory<br>
+Phone: (202) 404-8106<o:p></o:p></span></p>
+</div>
+<div>
+<p class=3D"MsoNormal"><span style=3D"font-family:&quot;Helvetica&quot;,&qu=
+ot;sans-serif&quot;;color:black">Fax: (202) 404-8687<br>
+E-Mail:&nbsp;<a href=3D"mailto:david.crouse@nrl.navy.mil">david.crouse@nrl.=
+navy.mil</a><br>
+&nbsp;<br>
+MAILING ADDRESS:<br>
+Naval Research Laboratory<br>
+Attn: Code 5344 (D. Crouse)<br>
+4555 Overlook Avenue S.W.<br>
+Washington, DC &nbsp;20375<o:p></o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</div>
+</body>
+</html>
+
+--_000_BN3PR0701MB1220FA70997178BB9A7F936EC3630BN3PR0701MB1220_--

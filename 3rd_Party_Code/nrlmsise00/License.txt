@@ -1,0 +1,90 @@
+In the e-mail exchange below, the author of the C version of the NRLMSISE00 considers his implementation to be in the public domain if the original Fortran implementation is in the Public domain. The original Fortran implementation was created by employees of the Naval Research Laboratory as official government work and thus is in the public domain.
+
+July 2015 David F. Crouse, Naval Research Laboratory, Washington D.C.
+
+
+
+Return-Path: <mail@dominikbrodowski.net>
+Received: from mail5.nrl.navy.mil (smail.nrl.navy.mil [132.250.4.114])
+	by radar.nrl.navy.mil (8.13.8/8.13.8) with ESMTP id t6DHgHlW015020
+	for <crouse@radar.nrl.navy.mil>; Mon, 13 Jul 2015 13:42:17 -0400
+Received: from linta.de (isilmar-3.linta.de [188.40.101.200])
+	by mail5.nrl.navy.mil (8.14.8/8.14.8) with ESMTP id t6DHgAuR013288
+	for <david.crouse@nrl.navy.mil>; Mon, 13 Jul 2015 13:42:12 -0400
+Received: (qmail 10825 invoked from network); 13 Jul 2015 17:41:09 -0000
+Received: from isilmar.linta (HELO light.dominikbrodowski.net) (10.0.0.1)
+  by isilmar.linta with (DHE-RSA-AES256-SHA encrypted) SMTP; 13 Jul 2015 17:41:09 -0000
+Received: by light.dominikbrodowski.net (Postfix, from userid 1000)
+	id 6767D201C1; Mon, 13 Jul 2015 19:40:57 +0200 (CEST)
+Date: Mon, 13 Jul 2015 19:40:57 +0200
+From: Dominik Brodowski <mail@dominikbrodowski.net>
+To: "David F. Crouse" <david.crouse@nrl.navy.mil>
+Subject: Re: Your NRLMSISE-00 Code
+Message-ID: <20150713174057.GA6729@light.dominikbrodowski.net>
+References: <FAEDA9D4-1D9D-4EA5-BB59-1445F3A96A38@nrl.navy.mil>
+MIME-Version: 1.0
+Content-Type: multipart/signed; micalg=pgp-sha1;
+	protocol="application/pgp-signature"; boundary="r5Pyd7+fXNt84Ff3"
+Content-Disposition: inline
+In-Reply-To: <FAEDA9D4-1D9D-4EA5-BB59-1445F3A96A38@nrl.navy.mil>
+User-Agent: Mutt/1.5.23 (2014-03-12)
+X-Scanned-By: MIMEDefang 2.64 on 132.250.183.240
+X-Scanned-By: MIMEDefang 2.73
+X-Spam-Score: 0 () 
+
+
+--r5Pyd7+fXNt84Ff3
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+David,
+
+it depends on the original license of the Fortran NRLMSISE-00 code by Mike
+Picone, Alan Hedin, and Doug Drob -- if that is in the public domain, I
+can gladly release my code C version also to the public domain.
+
+Best,
+	Dominik
+
+On Mon, Jul 13, 2015 at 12:03:39PM -0400, David F. Crouse wrote:
+> Is your NRLMSISE-00 C code in the public domain? The license you posted o=
+n your page does not explicitly state that.
+>=20
+> David F. Crouse
+> Surveillance Technology Branch
+> Radar Division
+> Naval Research Laboratory
+> Phone: (202) 404-8106
+> Fax: (202) 404-8687
+> E-Mail: david.crouse@nrl.navy.mil
+> =20
+> MAILING ADDRESS:
+> Naval Research Laboratory
+> Attn: Code 5344 (D. Crouse)
+> 4555 Overlook Avenue S.W.
+> Washington, DC  20375
+
+--r5Pyd7+fXNt84Ff3
+Content-Type: application/pgp-signature; name="signature.asc"
+Content-Description: Digital signature
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQIcBAEBAgAGBQJVo/gpAAoJEJqXYIlMjaMN4PgQAJh2cpoCz7K924Octbw3PD+T
+5/7fZO57cZU5G8jjH3aJ8ZILDOf4dANIE3xfY17lBZKDQ2a9L5eH9AkwCxIkc2u5
+TjTD4aFHDt4JbUjnJVuhg6M2s2m1AxD3mZUmlLNbW51sML7Yqxvz+Xkalp4bhWaE
+x3GvpEQGQPbpTDeVaADpzoiPkAmYkrVo63PHAfPORCSkkg31T7eF06tuAOkSCMbg
+VmOZtfHvP4P7pNeOOqd9gJilIHjBpqPX0RR0CjvfJeZEL8BJiAJ6o+o2DmMt6PdA
+UHXXSyRp8Vlp9T3Lf7pRfSQ8Ddkn6e7vXUy1OXd5cDtEz/WgTYUhZBepYLKpHx9a
+pAUIr9Q3M0NYkBgYEjZuJ4jb2n57uAUoe1DWE2zg+91N0myh2a4/Mf60f443h2nD
+l5dIWJtE0OWwu1LSo7S3idandosNpaaB2u1tU0WIGVGdv5ohkGnh1lpTlseRfMTc
+nAQITRAMr1J068OAGdsxEGycn8AG8LFS9PNF2dfPx7J2LoTu81vDH3HU4bPq3rId
+Rdyq+kYQh5KcOGZfhVCzNTTw3W2vcv8e4gkWPtc8rn/L3616dEUUvgDPxl9jd+2+
+7rfnuNpRfYmxtqqAZ3ADDlt1b47VlB99AKgf9gLFdLXRduBzS6e/wtj0RW+3Ybwc
+tDh134SzDGIGRbJst0d2
+=eQGu
+-----END PGP SIGNATURE-----
+
+--r5Pyd7+fXNt84Ff3--

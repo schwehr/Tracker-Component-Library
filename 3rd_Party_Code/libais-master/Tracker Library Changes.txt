@@ -1,0 +1,3 @@
+Minor corrections and changes to assure compilation would succeed under different operating systems were added to the LibAIS code and are commented with my name. The parts of the LibAIS code that are buggy/ do not work that I have not fixed are not used in the Matlab routine I created for decoding AIS returns based on LibAIS.
+
+January 2015 David F. Crouse, Naval Research Laboratory, Washington D.C.
